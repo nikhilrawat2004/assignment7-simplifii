@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    height: 100vh;
+}
+body{
+    transition: background 2s ease-in;
+}
+h1{
+    border: 1px;
+    border-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    transition: color 2s ease-out;
+}
+
